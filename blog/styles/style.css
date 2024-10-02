@@ -21,10 +21,24 @@ body {
     width: 80;
     padding: 40px;
     max-width: 500px;
-    margin-left: 330px;
+    margin-left: 355px; 
     margin-right: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: azure;
     text-shadow:black;
-    
+
+}
+
+.description{
+    background-color: black;
+    opacity: 0.5;
+    color: azure;
+    width:40;
+    margin-left:400;
+    text-align: center;
+    padding: 100;
+}
+
+.tg{
+    width: 10%;
 }
