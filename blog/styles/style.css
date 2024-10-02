@@ -1,0 +1,30 @@
+main {
+  text-align: center;
+}
+.bg {
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+body {
+  background-image: url(images/photo_2024-10-02_15-29-59.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+.heading{
+    width: 80;
+    padding: 40px;
+    max-width: 500px;
+    margin-left: 330px;
+    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    text-shadow:black;
+    
+}
