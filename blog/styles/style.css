@@ -39,6 +39,17 @@ body {
     padding: 100;
 }
 
+.list-of-volumes{
+    background-color: black;
+    opacity: 0.5;
+    color:azure;
+    text-align:  center;
+    margin-top: 20px;
+    height:35px;
+ 
+}
+
+
 .tg{
     width: 10%;
 
