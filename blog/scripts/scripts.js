@@ -1,3 +1,5 @@
+
+
 const tgButton = document.querySelector(".tg");
 
 // Обработчик события при наведении
@@ -10,5 +12,3 @@ tgButton.addEventListener("mouseenter", () => {
 tgButton.addEventListener("mouseleave", () => {
   tgButton.style.transform = "translateY(0)"; // Возвращаем кнопку на место
 });
-
-
