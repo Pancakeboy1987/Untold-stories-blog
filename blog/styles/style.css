@@ -10,11 +10,16 @@ main {
 }
 
 body {
-  background-image: url(images/photo_2024-10-02_15-29-59.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-color: black;
 
+}
+
+.wholespace{
+  background-image: url(images/photo_2024-10-02_15-29-59.jpg);
+  display:block;
 }
 
 .heading{
@@ -34,10 +39,8 @@ body {
     background-color: black;
     opacity: 0.5;
     color: azure;
-    width:40;
-    margin-left:400;
     text-align: center;
-    padding: 100;
+    display: inline-flexbox;
 }
 
 .list-of-volumes{
