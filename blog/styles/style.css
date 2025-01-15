@@ -62,3 +62,33 @@ body {
     width: 10%;
 
 }
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button{
+  display: block;
+  background-color: black;
+
+  opacity: 70%;
+  margin: auto;
+
+}
+
+.nav-txt{
+  color: azure;
+  padding-right:30px;
+  
+
+}
+.nav-ul{
+  list-style: none;
+ 
+}
+
+.nav-container a:link{
+  color: azure;
+}
+
