@@ -7,6 +7,7 @@ main {
   width: 100%;
   opacity: 0.5;
   z-index: -1;
+  position: fixed;
 }
 
 body {
@@ -18,9 +19,9 @@ body {
 }
 
 .wholespace{
-  background-image: url(images/photo_2024-10-02_15-29-59.jpg);
   display:block;
 }
+
 
 .heading{
     width: 80;
@@ -79,7 +80,7 @@ body {
 
 .nav-txt{
   color: azure;
-  padding-right:30px;
+  padding-right:34px;
   
 
 }
@@ -90,5 +91,8 @@ body {
 
 .nav-container a:link{
   color: azure;
+}
+.nav-container a:hover{
+  color: deepskyblue;
 }
 
