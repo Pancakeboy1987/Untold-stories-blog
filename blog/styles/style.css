@@ -37,11 +37,14 @@ body {
 }
 
 .description{
+    margin-top: 12px;
+    padding-top: 5px;
+    padding-bottom: 10px;
     background-color: black;
     opacity: 0.5;
     color: azure;
     text-align: center;
-    display: inline-flexbox;
+    display: block;
 }
 
 .list-of-volumes{
@@ -86,13 +89,21 @@ body {
 }
 .nav-ul{
   list-style: none;
+  margin-right: 10px;
+  margin-left: 10px;
  
 }
 
 .nav-container a:link{
   color: azure;
 }
-.nav-container a:hover{
-  color: deepskyblue;
+
+.nav-container .nav-button:hover{
+  background-color: rgb(30, 31, 48);
+  opacity: 80%;
+
 }
 
+.nav-container a{
+  text-decoration: none;
+}
