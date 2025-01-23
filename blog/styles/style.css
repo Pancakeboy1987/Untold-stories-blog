@@ -54,6 +54,7 @@ body {
     text-align:  center;
     margin-top: 20px;
     height:35px;
+    display: block;
  
 }
 
@@ -107,3 +108,41 @@ body {
 .nav-container a{
   text-decoration: none;
 }
+
+
+.expand{
+  display: block;
+}
+
+.collapsible{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  display: block;
+  background-color: black;
+  opacity: 0.5;
+  color: azure;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 25px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgb(32, 28, 39);
+  opacity: 0.5;
+}
+
+.expanded_content{
+  padding: 0 18px;
+  padding-top: 5px;
+  display: none;
+  overflow: hidden;
+  background-color: rgb(42, 17, 45);
+  opacity: 0.5;
+  color: azure;
+  text-align: center;
+}
+
