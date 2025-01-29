@@ -140,9 +140,55 @@ body {
   padding-top: 5px;
   display: none;
   overflow: hidden;
-  background-color: rgb(42, 17, 45);
-  opacity: 0.5;
+  background-color: rgb(33, 29, 58);
+  opacity: 0.8;
   color: azure;
   text-align: center;
 }
 
+.volume_collapsible{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: block;
+  background-color: rgb(33, 29, 58);
+  color:azure;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: 10px;
+  border-color: rgb(204, 196, 196);
+  outline-color: rgb(185, 181, 181);
+  text-align: center;
+  font-size: 25px;
+}
+
+.expanded_volume{
+  padding: 0 18px;
+  padding-top: 5px;
+  display: none;
+  overflow: hidden;
+  background-color: rgb(33, 29, 58);
+  opacity: 1;
+  color: azure;
+  text-align: center;
+
+}
+
+.active_v, .volume_collapsible:hover {
+  background-color: rgb(32, 28, 39);
+}
+
+.img_volume_block{
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.img_volume{
+  width: 560px;
+  height:500px;
+}
+
+.txt_volume{
+  display: block;
+  padding-bottom: 15px; ;
+}

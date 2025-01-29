@@ -17,9 +17,24 @@ tgButton.addEventListener("mouseleave", () => {
 var clps = document.getElementsByClassName("collapsible");
 var i;
 
+//collapsible блок
 for (i = 0; i < clps.length; i++) {
   clps[i].addEventListener("click", function() {
     this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    }
+    else {
+      content.style.display = "block";
+    }
+  });
+}
+
+var clps_v = document.getElementsByClassName("volume_collapsible");
+for (i = 0; i < clps_v.length; i++) {
+  clps_v[i].addEventListener("click", function() {
+    this.classList.toggle("active_v");
     var content = this.nextElementSibling;
     if (content.style.display === "block") {
       content.style.display = "none";
