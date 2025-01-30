@@ -170,6 +170,7 @@ body {
   opacity: 1;
   color: azure;
   text-align: center;
+  border: 3px solid rgba(16, 8, 21, 0.716);
 
 }
 
@@ -184,11 +185,37 @@ body {
 }
 
 .img_volume{
-  width: 560px;
-  height:500px;
+  width: 460px;
+  height:400px;
 }
 
 .txt_volume{
   display: block;
   padding-bottom: 15px; ;
+}
+
+.button_volume {
+  text-align: center;
+  display: block;
+  padding-top: 3px;
+  padding-bottom: 7px;
+  margin-bottom: 10px;
+  background-color: black;
+  opacity: 0.8;
+  margin-left: 90px;
+  margin-right: 90px;
+
+
+}
+
+.button_txt{
+  text-decoration: none;
+}
+
+.button_volume:hover{
+  background-color: rgb(32, 28, 39);
+  opacity: 0.5;
+}
+.button_txt:hover{
+  color: azure;
 }
