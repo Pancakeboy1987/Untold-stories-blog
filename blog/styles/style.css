@@ -38,6 +38,8 @@ body {
 
 .description{
     margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
     background-color: black;
@@ -117,13 +119,15 @@ body {
 .collapsible{
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: block;
   background-color: black;
   opacity: 0.5;
   color: azure;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 97.3%;
   border: none;
   text-align: center;
   outline: none;
@@ -138,6 +142,8 @@ body {
 .expanded_content{
   padding: 0 18px;
   padding-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: none;
   overflow: hidden;
   background-color: rgb(33, 29, 58);
@@ -200,7 +206,7 @@ body {
   padding-top: 3px;
   padding-bottom: 7px;
   margin-bottom: 10px;
-  background-color: black;
+  background-color: rgb(28, 21, 68);
   opacity: 0.8;
   margin-left: 90px;
   margin-right: 90px;
@@ -218,4 +224,13 @@ body {
 }
 .button_txt:hover{
   color: azure;
+}
+
+.button_txt:link{
+  color: azure;
+}
+
+.error{
+  color: rgb(255, 7, 7);
+
 }
